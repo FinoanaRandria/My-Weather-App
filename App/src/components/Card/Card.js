@@ -1,7 +1,14 @@
 import React from 'react'
-
-export default function Card() {
+import "../Assets/CSS/Card.css"
+function Card() {
   return (
-    <div>Card</div>
+    <div className='glass'>
+<div >
+      <h1>Card</h1>
+    </div>
+    </div>
+    
   )
 }
+
+export default Card
