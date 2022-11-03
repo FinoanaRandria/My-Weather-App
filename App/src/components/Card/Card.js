@@ -5,12 +5,13 @@ import logo1 from "../Assets/Img/sun.png"
 import logo2 from "../Assets/Img/skyscraper.png"
 import logo3 from "../Assets/Img/wind-power.png"
 import logo4 from "../Assets/Img/thermometer.png"
+import logo5 from "../Assets/Img/dew.png"
 function Card() {
     const [weather,setWeather]= useState({});
     const  [city,setCity]= useState({})
-    //const apikey = "39ef9f6f//////////820eb1c//31aad//393d///f13b3f33"
+    //const apikey = "39//ef9f6f820e//b1c31aad39//3df13b3f33"
      const getWeather = (e) =>{
-      if (e.key == 'Enter'){
+      if (e.key === 'Enter'){
         fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}&units=metric`)
         .then(res => res.json())
         .then(result => {
@@ -49,6 +50,9 @@ function Card() {
                 </div>
                 <div className='wind'>
                 <img src={logo3} alt="sun" width={30}/>  {weather.wind.speed} m/s
+                </div>
+                <div className='humid' >
+                   <img src={logo5} alt="humid" width={30}/> {weather.main.humidity} g/m3
                 </div>
               </div>
             ) 

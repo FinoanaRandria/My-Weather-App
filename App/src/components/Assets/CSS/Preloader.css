@@ -1,0 +1,17 @@
+.im{
+    width: auto;
+    height:550px;
+   overflow: hidden;
+}
+
+.estix{
+    width: 110px;
+}
+.cont{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

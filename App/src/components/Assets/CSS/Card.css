@@ -30,7 +30,7 @@ overflow: hidden;
 }
 
 input{
-    width: 280px;
+    width: 290px;
     padding: 10px;
     border: 1px solid white;
     background: transparent;
@@ -39,7 +39,7 @@ input{
     outline: none;
     font-size: 16px;
     box-sizing: border-box;
-    
+    margin-left: 30px;
 }
 
 .logo{
@@ -60,7 +60,7 @@ h1{
     justify-content: flex-start;
     padding: 20px 0;
     width: 100%;
-    
+    margin-left: 10px;
 }
 
 .weather-container div{
