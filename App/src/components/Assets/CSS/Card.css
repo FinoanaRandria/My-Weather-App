@@ -68,3 +68,9 @@ h1{
     padding: 10px;
     box-sizing: border-box;
 }
+
+p{
+    position: relative;
+    top: 60px;
+    font-size: 10px;
+}
