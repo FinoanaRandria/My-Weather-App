@@ -9,7 +9,7 @@ import logo5 from "../Assets/Img/dew.png"
 function Card() {
     const [weather,setWeather]= useState({});
     const  [city,setCity]= useState({})
-    //const apikey = "39ef9f6f82////0eb1c3////////1aad393df13b3f33"
+    //const apikey = "39ef9f6f820eb1c31aad393df13b3f33"
      const getWeather = (e) =>{
       if (e.key === 'Enter'){
         fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}&units=metric`)
@@ -55,9 +55,7 @@ function Card() {
                    <img src={logo5} alt="humid" width={30}/> {weather.main.humidity} g/m3
                 </div>
 
-                <div className='time'>
-                      {weather.sys.dt_txt}
-                </div>
+                
               </div>
             ) 
             :
@@ -70,7 +68,7 @@ function Card() {
            }
        </div>
     </div>
-          <p>Create and designed by Finoana_Randria </p>
+          <p>@Create and designed by Finoana_Randria </p>
     </div>
     
   )
