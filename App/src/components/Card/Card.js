@@ -9,7 +9,7 @@ import logo5 from "../Assets/Img/dew.png"
 function Card() {
     const [weather,setWeather]= useState({});
     const  [city,setCity]= useState({})
-    //const apikey = "39ef9///f6f820eb/////1c31aad393df13b3f33"
+    //const apikey = "//39ef9f6f8//20eb1c//31aad393df13b3f33"
      const getWeather = (e) =>{
       if (e.key === 'Enter'){
         fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}&units=metric`)
@@ -62,7 +62,7 @@ function Card() {
             (
 
               <div className='weather-container'>
-                <h1>Welcome to Weather App</h1>
+                <h1>Bien Sur Weather-App</h1>
               </div>
             )
            }
