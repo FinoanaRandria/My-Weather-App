@@ -43,6 +43,17 @@ transition: 0.4s;
      flex-direction: column;
      align-items: center;   
     }
+
+    .wel{
+        font-size: 20px;
+        position: absolute;
+        left: -70px;
+    }
+}
+
+.wel{
+position: relative;
+    right: 31px;
 }
 
 body{

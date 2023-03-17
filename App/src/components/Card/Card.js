@@ -76,7 +76,7 @@ function Card() {
           (
 
             <div className='weather-container'>
-              <h1>Bienvenu Sur Weather-App</h1>
+              <h1 className='wel'>Bienvenu Sur Weather-App</h1>
             </div>
           )
          }
