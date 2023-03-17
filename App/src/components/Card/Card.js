@@ -42,7 +42,7 @@ function Card() {
             <input type="text"
            className='search'
            placeholder='Entrer ici le nom de la Ville'
-           value={city}
+           
             onChange = {(e) => setCity(e.target.value)}
            onKeyPress ={getWeather}
          />
